@@ -4,8 +4,8 @@ import numpy as np
 from tensorflow.keras.models import load_model
 
 # Load model and vectorizer
-model = load_model("sustainability_model.h5")
-vectorizer = joblib.load("vectorizer.pkl")
+model = load_model("model/sustainability_model.h5")
+vectorizer = joblib.load("model/vectorizer.pkl")
 
 # UI
 st.title("🌱 Sustainable Product Classifier")
